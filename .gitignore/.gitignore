@@ -1,0 +1,11 @@
+x = 10
+def delonie(x):
+  ch = x
+  while x  >= ch* -1:
+    try:
+      y = ch/x
+      print (y)
+    except ZeroDivisionError:
+        print(ZeroDivisionError)
+    x-=1
+delonie(10)
